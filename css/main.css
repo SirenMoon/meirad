@@ -1,0 +1,100 @@
+
+header{
+	
+
+}
+
+nav{
+font-weight: bold;
+padding-left:3em;
+padding-top:0.75em;
+}
+
+nav a{
+padding-right:3em;
+}
+
+.nav{
+background-color: rgba(255, 255, 255, 0.20);
+height:3em;
+width:100%;
+}
+
+body{
+background: url('05.jpg') no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+/* Gradient transparent - color - transparent */
+ hr{ 
+ 	border: 0;
+ 	 height: 1px;
+ 	  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+ 	  background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+ 	  background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+ 	  background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+ 	margin: 3em;
+ 	}
+
+img{
+
+}
+
+.container{
+}
+
+p {
+color: #333333;
+font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+font-size: 1.25em; 
+margin-left:3em; 
+margin-right:3em;"
+}
+
+#billboard{
+	height:5em;
+	width:100%;
+	margin:1em;
+}
+
+.portfolio, .skills, .about, footer{
+	background-color: rgba(255, 255, 255, 0.20);
+	height: 41em;
+	margin: 2em;
+	padding:1em;
+	overflow:auto !important;
+}
+
+.skills{
+height:35em !important;
+}
+.about{
+height:15em;
+}
+
+footer{
+	padding-bottom:0 !important;
+	height: 12em !important;
+	width:100%;
+	height:100%;
+	margin:0 !important;
+	overflow:visible !important;
+}
+
+.col {
+  width:30.5%;
+  height:100px;
+  float:left;
+  margin:0 10px;
+  padding:1em;
+  display:inline-block;
+  font-size: 1em;
+  position:relative;
+}
+
+ul{
+list-style-type: none;
+}
